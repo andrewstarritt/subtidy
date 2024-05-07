@@ -1,0 +1,16 @@
+# subtidy test virtual env setup
+#
+
+ venv=/home/andrew/general/venv/subtidy
+
+ mkdir -p ${venv:?}
+
+ # Ensure version 3.3 or later for venv
+ #
+ python3 -m venv  ${venv:?}
+
+ . ${venv:?}/bin/activate
+
+ pip install  --editable .
+
+# end
