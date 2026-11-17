@@ -2,7 +2,7 @@
 """
 
 # from . import main
-__version__ = "1.1.4"
+__version__ = "1.1.5"
 __license__ = "GPL3"
 
 class ParseError(Exception):

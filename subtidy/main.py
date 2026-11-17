@@ -131,7 +131,7 @@ context_settings = dict(help_option_names=['--help', '-h'],
               help="""Specifies spacing (range 1 to 8).""")
 @click.option('--width', '-w',
               type=click.IntRange(60, 800),
-              default=120,
+              default=200,
               show_default=True,
               help="""Specifies maximum output width (range 60 to 800).""")
 @click.argument('filenames', nargs=-1)
